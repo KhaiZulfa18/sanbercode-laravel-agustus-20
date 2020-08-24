@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day 1 - HTML - FORM</title>
+</head>
+<body>
+	<h1>Buat Account Baru!</h1>
+	<h2>Sign Up Form</h2>
+	<hr>
+	<!-- Form -->
+	<form action="welcome.html" method="post">
+		<p>First Name :</p> 
+		<!-- Input Text -->
+		<input type="text" name="first_name">
+		<p>Last Name :</p>
+		<input type="text" name="last_name">
+		<p>Gender :</p>
+		<!-- Input Radio -->
+		<input type="radio" name="gender"> Male
+		<br>
+		<input type="radio" name="gender"> Female
+		<br>
+		<input type="radio" name="gender"> Other
+		<br>
+		<p>Nationality :</p>
+		<!-- Input Select -->
+		<select>
+			<option>Indonesia</option>
+			<option>Malaysia</option>
+			<option>Singapura</option>
+			<option>Thailand</option>
+		</select>
+		<p>Languange Spoken :</p>
+		<!-- Input Checkbox -->
+		<input type="checkbox" name="lang"> Bahasa Indonesia
+		<br>
+		<input type="checkbox" name="lang"> English
+		<br>
+		<input type="checkbox" name="lang"> Basa Jawa
+		<br>
+		<p>Bio :</p>
+		<!-- TextArea -->
+		<textarea cols="20" rows="6"></textarea>
+		<br>
+		<input type="submit" value="Sign Up">
+	</form>
+</body>
+</html>
